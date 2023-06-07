@@ -1,0 +1,216 @@
+.admin-main {
+    width: 100%;
+    height: 100vh;
+    background-color: #dfdfdf;
+    display: flex;
+    justify-content: center;
+}
+
+.item-admin {
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.item-admin .dashboard {
+    width: 20%;
+    background-color: #000;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    justify-content: end;
+}
+
+.item-dashboard {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* top-dashboard */
+.top-dashboard {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.top-dashboard h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.middle-dashboard {
+    width: 100%;
+    height: auto;
+}
+
+
+.middle-dashboard ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.middle-dashboard ul li {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+    gap: 15px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.middle-dashboard ul li:hover {
+    background-color: #63414163;
+}
+
+.middle-dashboard ul li span {
+    color: #dfdfdf;
+    font-size: 1.1rem;
+}
+
+.icone {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.bottom-dashboard {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.bottom-dashboard ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bottom-dashboard ul li {
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 15px;
+    transition: all .3s;
+}
+
+
+
+
+.bottom-dashboard ul li span {
+    font-style: 1.1rem;
+    color: #fff;
+}
+
+.bottom-dashboard ul li:hover {
+    background-color: #63414163;
+
+}
+
+
+.bgc {
+    width: 30px;
+    height: 30px;
+    background-color: #63414163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-content-in-admin {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: rgb(209, 204, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-main-content-in-admin {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    position: relative;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+    text-align: center;
+    height: auto;
+}
+
+td,
+th {
+    height: 40px;
+}
+
+.shikoyatniyuborishА {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000000ba;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    z-index: 111;
+}
+
+
+.item-shikoyat {
+    width: 40%;
+    height: 20%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 0;
+}
+
+.buttons-list button {
+    padding: 4px 10px;
+    border: none;
+}
