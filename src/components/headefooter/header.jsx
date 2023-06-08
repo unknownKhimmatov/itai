@@ -74,9 +74,9 @@ export default function Header() {
             <header >
                 <nav style={headerStyle}>
                     <ul>
-                      <h1>
-                        Up English
-                      </h1>
+                        <h1>
+                            SHEF.AI
+                        </h1>
                     </ul>
                     <ul className='navigate'>
                         <Link to='/' className='none d-none'>
@@ -89,8 +89,6 @@ export default function Header() {
                         </button>
                         <button onClick={handleLogAdmin}>Kirish</button>
                     </ul>
-
-
                     <ul className={show !== true ? 'resnavigate' : "resnavigate2"}>
                         <div className="item-res-nav">
                             <Link to='/' className='none d-none'>
